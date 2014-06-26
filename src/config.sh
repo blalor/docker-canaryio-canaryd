@@ -8,7 +8,7 @@ mv program-canaryio-canaryd.conf /etc/supervisor.d/
 mv program-nginx.conf /etc/supervisor.d/
 
 mv nginx.repo /etc/yum.repos.d/
-yum install -y canaryio-canaryd nginx
+yum install -y canaryio-canaryd-d6050e4 nginx
 
 mv nginx.conf /etc/nginx/
 
